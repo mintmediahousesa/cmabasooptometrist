@@ -1,22 +1,18 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>C Mabaso Optometrist | Phalaborwa Eye Care</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="page-shell">
-    <header class="site-header">
-      <a href="#top" class="brand" aria-label="C Mabaso Optometrist home">
-        <span class="c-logo">
-          <span class="eye eye-left"><span></span></span>
-          <span class="eye eye-right"><span></span></span>
+  <main class="site-shell">
+    <header class="nav">
+      <a class="brand" href="#">
+        <span class="logo-c" aria-hidden="true">
           C
+          <span class="eyes"><i></i><i></i></span>
         </span>
         <span>
           <strong>C Mabaso</strong>
@@ -24,94 +20,96 @@
         </span>
       </a>
 
-      <nav class="nav-links" aria-label="Main navigation">
+      <nav>
         <a href="#services">Services</a>
         <a href="#practice">Practice</a>
         <a href="#location">Location</a>
       </nav>
 
-      <a class="call-pill" href="tel:+27157810384">Book a Call</a>
+      <a class="btn dark" href="tel:+27157810384">Book an Eye Test</a>
     </header>
 
-    <main id="top">
-      <section class="hero section-border">
-        <div class="hero-copy">
-          <p class="eyebrow">Phalaborwa Optometry Practice</p>
-          <h1>Eye care that feels clear from the first search.</h1>
-          <p class="hero-text">Professional optometry support for eye examinations, contact lenses, patient guidance and appointment enquiries in Phalaborwa.</p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="tel:+27157810384">Call Practice</a>
-            <a class="btn btn-secondary" href="#location">Get Directions</a>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Phalaborwa Optometry Practice</p>
+        <h1>See clearly. Feel confident.</h1>
+        <p class="lead">
+          Professional eye care, eye tests, contact lens support and patient guidance
+          for families and individuals in Phalaborwa.
+        </p>
+        <div class="actions">
+          <a class="btn green" href="tel:+27157810384">Call the Practice</a>
+          <a class="btn light" href="#location">Get Directions</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="portrait-card">
+          <div class="lens-glow"></div>
+          <img src="https://images.unsplash.com/photo-1600180758890-6b94519a8ba6?auto=format&fit=crop&w=900&q=80" alt="Patient wearing glasses" />
+          <div class="floating-card">
+            <span>Patient pathway</span>
+            <strong>Search. Trust. Book.</strong>
           </div>
         </div>
+      </div>
+    </section>
 
-        <div class="hero-card" aria-label="Appointment card">
-          <div class="glass-panel">
-            <span class="status-dot"></span>
-            <p>Patient pathway</p>
-            <h2>Search. Trust. Book.</h2>
-            <ul>
-              <li><strong>01</strong><span>Choose your eye care service.</span></li>
-              <li><strong>02</strong><span>Contact the practice directly.</span></li>
-              <li><strong>03</strong><span>Confirm your appointment.</span></li>
-            </ul>
-          </div>
-        </div>
-      </section>
+    <section class="quick-panel">
+      <article>
+        <span>01</span>
+        <strong>Eye examinations</strong>
+        <p>Book a professional eye test and receive clear next steps.</p>
+      </article>
+      <article>
+        <span>02</span>
+        <strong>Contact lenses</strong>
+        <p>Support with fitting, guidance and comfort for daily wear.</p>
+      </article>
+      <article>
+        <span>03</span>
+        <strong>Practice details</strong>
+        <p>One trusted place for address, calls and patient enquiries.</p>
+      </article>
+    </section>
 
-      <section class="quick-strip">
-        <a href="tel:+27157810384"><strong>Call</strong><span>015 781 0384</span></a>
-        <a href="#location"><strong>Address</strong><span>Impala St, Phalaborwa</span></a>
-        <a href="#services"><strong>Care</strong><span>Eye exams & lenses</span></a>
-      </section>
+    <section id="services" class="section split">
+      <div>
+        <p class="eyebrow">Services</p>
+        <h2>Eye care made simple.</h2>
+      </div>
+      <div class="service-grid">
+        <div>Comprehensive eye exams</div>
+        <div>Contact lens support</div>
+        <div>Children’s eye care</div>
+        <div>Diabetic eye care guidance</div>
+        <div>Glaucoma screening support</div>
+        <div>Prescription guidance</div>
+      </div>
+    </section>
 
-      <section id="services" class="services section-border">
-        <div class="section-intro">
-          <p class="eyebrow">Services</p>
-          <h2>Clear support for everyday eye care.</h2>
-        </div>
-        <div class="service-grid">
-          <article><span>01</span><h3>Eye Examinations</h3><p>Routine vision checks and patient guidance.</p></article>
-          <article><span>02</span><h3>Contact Lenses</h3><p>Lens support, fitting guidance and follow-up care.</p></article>
-          <article><span>03</span><h3>Children’s Eye Care</h3><p>Support for young patients and family enquiries.</p></article>
-          <article><span>04</span><h3>Diabetic Eye Support</h3><p>Eye care awareness for patients needing regular checks.</p></article>
-        </div>
-      </section>
+    <section id="practice" class="section editorial">
+      <p class="eyebrow">Practice</p>
+      <h2>A clearer first impression for every patient search.</h2>
+      <p>
+        Patients often search before they call. This demo creates one calm, credible
+        destination where patients can understand the practice, find contact details
+        and take the next step with confidence.
+      </p>
+    </section>
 
-      <section id="practice" class="split section-border">
-        <div>
-          <p class="eyebrow">Practice confidence</p>
-          <h2>One trusted destination for patients.</h2>
-        </div>
-        <div class="trust-copy">
-          <p>Patients often discover healthcare practices through search results, directories and map listings. A simple, calm website gives the practice one owned place to present its services, contact details and appointment pathway clearly.</p>
-          <div class="trust-badges">
-            <span>Professional</span>
-            <span>Local</span>
-            <span>Patient-ready</span>
-          </div>
-        </div>
-      </section>
-
-      <section id="location" class="location section-border">
-        <div class="map-card">
-          <div class="map-pin">C</div>
-          <p>Phalaborwa</p>
-          <h2>C Mabaso Optometrist</h2>
-        </div>
-        <div class="location-copy">
-          <p class="eyebrow">Location</p>
-          <h2>Find the practice with confidence.</h2>
-          <p>House no. 4, Impala Street, Phalaborwa, 1390</p>
-          <a class="btn btn-primary" href="https://www.google.com/maps/search/C+Mabaso+Optometrist+Phalaborwa" target="_blank" rel="noopener">Open Directions</a>
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <p>C Mabaso Optometrist</p>
-      <p>Digital presence concept by <strong>Mint Media House</strong></p>
-    </footer>
-  </div>
+    <section id="location" class="section location">
+      <div>
+        <p class="eyebrow">Location</p>
+        <h2>C Mabaso Optometrist</h2>
+        <p>Phalaborwa, Limpopo, South Africa</p>
+      </div>
+      <div class="contact-card">
+        <span>Ready to book?</span>
+        <a href="tel:+27157810384">015 781 0384</a>
+        <small>Digital presence demo by Mint Media House</small>
+      </div>
+    </section>
+  </main>
 </body>
 </html>

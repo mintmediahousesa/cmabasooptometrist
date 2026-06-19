@@ -1,13 +1,5 @@
-# C Mabaso Optometrist Demo
+# C Mabaso Optometrist Demo V2
 
-Static one-page demo for Dr Mabaso Medical Practice.
+Static one-page demo.
 
-## Deploy on Vercel
-
-Upload these files to the GitHub repo root:
-
-- index.html
-- styles.css
-- README.md
-
-Vercel will serve it as a static site.
+Upload `index.html` and `styles.css` to GitHub root. Vercel preset: Other.
