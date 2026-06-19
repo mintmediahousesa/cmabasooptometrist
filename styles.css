@@ -175,3 +175,46 @@ h1{font-family:Rajdhani,Manrope,system-ui,sans-serif;font-weight:700;letter-spac
   h1{font-size:clamp(39px,13vw,56px);line-height:.96;}
   .hero-title{font-size:.6em;margin-top:.04em;}
 }
+
+
+/* V10.3 — Typography overhaul: clean optical retail / healthcare finish */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Outfit:wght@400;500;600;700;800&display=swap');
+:root{--display:'Montserrat',Arial,sans-serif;--body:'Outfit',Arial,sans-serif;}
+body{font-family:var(--body);font-weight:500;letter-spacing:-.01em;background:#eef5f8;}
+.site-shell{border-radius:34px;overflow:clip;}
+.topbar{font-family:var(--display);min-height:76px;padding:12px 5.5vw;background:rgba(255,255,255,.965);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);box-shadow:0 16px 40px rgba(7,24,50,.06);}
+.brand-copy strong{font-family:var(--display);font-size:24px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;line-height:1;}
+.brand-copy small{font-family:var(--display);font-weight:600;letter-spacing:.45em;font-size:10px;}
+.letter{font-family:var(--display);font-weight:800;}
+nav{font-family:var(--display);background:transparent;border:0;border-radius:0;padding:0;gap:34px;}
+nav a{font-family:var(--display);font-size:13px;font-weight:700;letter-spacing:.08em;padding:0;border-radius:0;text-transform:uppercase;color:#0a1930;position:relative;}
+nav a::after{content:'';position:absolute;left:0;right:0;bottom:-10px;height:2px;background:var(--blue);transform:scaleX(0);transform-origin:center;transition:transform .22s ease;}
+nav a:hover,nav a:focus-visible{background:transparent;color:var(--blue);transform:none;}
+nav a:hover::after,nav a:focus-visible::after{transform:scaleX(1);}
+.button,.topbar .button.dark{font-family:var(--display);font-size:13px;letter-spacing:.1em;text-transform:uppercase;font-weight:800;}
+h1,h2,h3,.contact-list strong,.contact-list a:not(.text-link),.location-card strong,.site-footer strong{font-family:var(--display);letter-spacing:-.055em;}
+h1{font-weight:800;font-size:clamp(44px,5.3vw,84px);line-height:.98;letter-spacing:-.06em;max-width:760px;}
+.hero-title{font-size:.62em;font-weight:700;letter-spacing:-.05em;margin-top:.06em;}
+h2{font-weight:800;font-size:clamp(38px,4.5vw,76px);}
+h3{font-weight:800;}
+.lead,.hero-lead,.editorial-copy p,.service-grid p,.eyewear-copy p:not(.eyebrow),.contact-copy p,.booking-card p{font-family:var(--body);font-weight:500;letter-spacing:-.015em;}
+.eyebrow,.section-kicker,.quiet-credentials,.contact-list span,.site-footer h4{font-family:var(--display);font-weight:800;letter-spacing:.22em;}
+.brand{gap:13px;}
+.eye-logo{width:46px;height:46px;}.letter{font-size:54px}.eye{top:19px}.eye.left{left:12px}.eye.right{left:26px}
+@media(max-width:1100px){nav{gap:20px;}nav a{font-size:12px}.topbar .button.dark{display:none;}}
+@media(max-width:900px){
+  body{padding:10px;background:#eef5f8;}
+  .site-shell{border-radius:26px;overflow:clip;margin:0 auto;width:100%;}
+  .topbar{top:8px;border-radius:24px 24px 18px 18px;padding:14px 16px 12px;gap:12px;}
+  .brand-copy strong{font-size:20px;letter-spacing:.16em;}
+  .brand-copy small{font-size:8px;letter-spacing:.34em;}
+  .eye-logo{width:40px;height:40px}.letter{font-size:48px}.eye{width:10px;height:10px;top:17px}.eye.left{left:11px}.eye.right{left:23px}
+  nav{order:3;width:100%;overflow-x:auto;justify-content:flex-start;gap:18px;padding:12px 2px 4px;scrollbar-width:none;}
+  nav::-webkit-scrollbar{display:none;}
+  nav a{font-size:12px;letter-spacing:.09em;white-space:nowrap;padding-bottom:8px;}
+  nav a::after{bottom:0;}
+  h1{font-size:clamp(36px,11.4vw,50px);line-height:1.02;letter-spacing:-.055em;max-width:100%;}
+  .hero-title{font-size:.64em;}
+  h2{font-size:clamp(34px,10vw,44px);line-height:1.02;}
+  .hero,.about-section,.care-note-section,.services-section,.eyewear-section,.booking-section,.contact-section{padding-left:22px;padding-right:22px;}
+}

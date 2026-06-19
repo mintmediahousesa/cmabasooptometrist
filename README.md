@@ -1,10 +1,10 @@
-# C Mabaso Optometrist Demo V10.2
+# C Mabaso Optometrist V10.3
 
-Flat deploy build. Upload all files in this ZIP to the site root.
+Flat deploy build. No assets folder required.
 
 Changes:
-- Execuspecs-inspired slim typography for logo/nav.
-- Improved sticky top navigation tabs.
-- Mobile shell keeps rounded premium borders.
-- Final contact/footer structure retained.
-- No separate assets folder required.
+- Full typography overhaul using Montserrat + Outfit.
+- Cleaner Execuspecs-inspired navigation.
+- Sticky top navigation retained.
+- Rounded mobile shell retained.
+- Flat files only: index.html, styles.css, README.md, patient-vision-showcase.jpg.
