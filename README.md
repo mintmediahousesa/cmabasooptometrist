@@ -1,10 +1,9 @@
-# C Mabaso Optometrist V10.3
+Cmabaso Optometrist V10.4 Clean Deploy
 
-Flat deploy build. No assets folder required.
+Upload the contents of this folder to GitHub/Vercel.
+Do not upload any older nested ZIP files.
 
-Changes:
-- Full typography overhaul using Montserrat + Outfit.
-- Cleaner Execuspecs-inspired navigation.
-- Sticky top navigation retained.
-- Rounded mobile shell retained.
-- Flat files only: index.html, styles.css, README.md, patient-vision-showcase.jpg.
+Files included:
+- index.html
+- styles.css
+- patient-vision-showcase.jpg
