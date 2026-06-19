@@ -106,3 +106,50 @@ footer{display:flex;justify-content:space-between;gap:20px;padding:32px 5.5vw;co
   .booking{gap:26px}
   footer{flex-direction:column;padding:28px 24px}
 }
+
+
+.credentials-section{
+  display:grid;
+  grid-template-columns:.78fr 1.22fr;
+  gap:5vw;
+  align-items:start;
+  background:#fff;
+  padding:6.7vw 5.5vw;
+  border-top:1px solid var(--line);
+}
+
+.credentials-copy p:not(.eyebrow){
+  color:var(--muted);
+  font-size:20px;
+  line-height:1.6;
+}
+
+.credential-list{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:18px;
+}
+
+.credential-list article{
+  background:var(--soft);
+  border-radius:24px;
+  padding:26px;
+  border-left:4px solid var(--blue);
+}
+
+.credential-list strong{
+  display:block;
+  font-size:30px;
+  letter-spacing:-.05em;
+  margin-bottom:8px;
+}
+
+.credential-list span{
+  color:var(--muted);
+  font-weight:800;
+}
+
+@media(max-width:900px){
+  .credentials-section{grid-template-columns:1fr;padding:60px 24px}
+  .credential-list{grid-template-columns:1fr}
+}

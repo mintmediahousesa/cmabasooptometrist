@@ -1,4 +1,4 @@
-# C Mabaso Optometrist Demo V7
+# C Mabaso Optometrist Demo V8
 
 No assets folder required.
 
@@ -7,4 +7,8 @@ Upload only:
 - styles.css
 - README.md
 
-Dr Mabaso, practice and LinkedIn proof assets are embedded directly into index.html.
+Changes in V8:
+- Removed Proof tab.
+- Removed LinkedIn screenshot proof section.
+- Added Professional Bio / Credentials section using Dr Mabaso's qualifications.
+- Images remain embedded directly in index.html.
