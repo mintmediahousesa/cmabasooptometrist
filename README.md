@@ -1,5 +1,13 @@
-# C Mabaso Optometrist Demo V2
+# C Mabaso Optometrist Demo V3
 
-Static one-page demo.
+Static one-page demo for Vercel/GitHub.
 
-Upload `index.html` and `styles.css` to GitHub root. Vercel preset: Other.
+Files:
+- index.html
+- styles.css
+
+Deploy:
+1. Upload these files to the root of the GitHub repo.
+2. Vercel framework preset: Other.
+3. No build command required.
+4. Output directory can be left blank or set to `.`
