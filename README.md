@@ -1,16 +1,10 @@
-# Dr C Mabaso Optometrist V10
+# C Mabaso Optometrist Demo V10.2
 
-Flat deploy build. No assets folder required. Upload these files at root level.
+Flat deploy build. Upload all files in this ZIP to the site root.
 
-Files:
-- index.html
-- styles.css
-- patient-vision-showcase.jpg
-- README.md
-
-V10 updates:
-- Softer mobile hero typography.
-- Calmer eyewear section copy.
-- Expanded contact structure inspired by established optometry contact pages.
-- Stronger footer with contact, practice and hours blocks.
-- Google Maps image/card remains clickable.
+Changes:
+- Execuspecs-inspired slim typography for logo/nav.
+- Improved sticky top navigation tabs.
+- Mobile shell keeps rounded premium borders.
+- Final contact/footer structure retained.
+- No separate assets folder required.

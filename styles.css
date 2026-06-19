@@ -62,3 +62,116 @@ h1{font-size:clamp(46px,5.8vw,92px);line-height:1.02;letter-spacing:-.055em;max-
 .footer-columns{grid-template-columns:1fr}
 .hero-title{font-size:.58em}
 }
+
+
+/* V10.2 — Execuspecs-inspired navigation + mobile shell polish */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&display=swap');
+body{font-family:Manrope,system-ui,sans-serif;}
+.site-shell{position:relative;overflow:visible;}
+.topbar{
+  position:sticky;
+  top:0;
+  z-index:999;
+  min-height:78px;
+  padding:12px 5.5vw;
+  background:rgba(255,255,255,.96);
+  box-shadow:0 12px 34px rgba(7,24,50,.055);
+}
+.brand-copy strong{
+  font-family:Rajdhani,Manrope,system-ui,sans-serif;
+  font-size:28px;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  font-weight:600;
+  line-height:1;
+}
+.brand-copy small{
+  font-family:Rajdhani,Manrope,system-ui,sans-serif;
+  letter-spacing:.42em;
+  font-size:11px;
+  font-weight:600;
+}
+.eye-logo{width:48px;height:48px;}
+.letter{font-size:58px;}
+.eye{top:20px;}
+.eye.left{left:13px}.eye.right{left:27px}
+nav{
+  gap:10px;
+  background:#f5f8fa;
+  border:1px solid var(--line);
+  border-radius:999px;
+  padding:7px;
+}
+nav a{
+  font-family:Rajdhani,Manrope,system-ui,sans-serif;
+  font-size:16px;
+  letter-spacing:.08em;
+  font-weight:700;
+  padding:10px 17px;
+  border-radius:999px;
+  transition:background .2s ease,color .2s ease,transform .2s ease;
+  white-space:nowrap;
+}
+nav a:hover, nav a:focus-visible{
+  background:var(--navy);
+  color:#fff;
+  outline:none;
+  transform:translateY(-1px);
+}
+.topbar .button.dark{
+  min-height:44px;
+  padding:0 20px;
+  font-family:Rajdhani,Manrope,system-ui,sans-serif;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  font-size:16px;
+}
+h1,h2,h3{letter-spacing:-.045em;}
+h1{font-family:Rajdhani,Manrope,system-ui,sans-serif;font-weight:700;letter-spacing:-.025em;line-height:.96;}
+.hero-title{font-weight:600;letter-spacing:-.02em;}
+@media(max-width:1100px){
+  .topbar{gap:16px;}
+  nav{gap:6px;padding:6px;}
+  nav a{font-size:14px;padding:9px 12px;}
+}
+@media(max-width:900px){
+  body{background:#eef5f8;padding:10px;}
+  .site-shell{
+    width:100%;
+    margin:0 auto;
+    border-radius:24px;
+    overflow:visible;
+    border:1px solid var(--line);
+  }
+  .topbar{
+    top:8px;
+    margin:0;
+    border-radius:24px 24px 18px 18px;
+    padding:14px 16px 12px;
+    min-height:auto;
+    flex-wrap:wrap;
+  }
+  .brand{gap:10px;}
+  .eye-logo{width:42px;height:42px;}
+  .letter{font-size:50px;}
+  .eye{width:11px;height:11px;top:18px;}
+  .eye.left{left:12px}.eye.right{left:24px}
+  .brand-copy strong{font-size:22px;letter-spacing:.12em;}
+  .brand-copy small{font-size:9px;letter-spacing:.32em;}
+  nav{
+    order:3;
+    width:100%;
+    overflow-x:auto;
+    justify-content:flex-start;
+    border-radius:18px;
+    padding:6px;
+    gap:6px;
+    scrollbar-width:none;
+  }
+  nav::-webkit-scrollbar{display:none;}
+  nav a{font-size:14px;padding:10px 14px;}
+  .hero,.about-section,.care-note-section,.services-section,.eyewear-section,.booking-section,.contact-section{padding-left:22px;padding-right:22px;}
+  .hero{border-radius:0 0 22px 22px;}
+  h1{font-size:clamp(39px,13vw,56px);line-height:.96;}
+  .hero-title{font-size:.6em;margin-top:.04em;}
+}
