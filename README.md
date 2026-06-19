@@ -1,10 +1,10 @@
-# C Mabaso Optometrist Demo V5
+# C Mabaso Optometrist Demo V7
 
 No assets folder required.
 
 Upload only:
 - index.html
 - styles.css
+- README.md
 
-The Dr Mabaso and practice images are embedded directly inside index.html.
-External stock imagery loads from Unsplash links.
+Dr Mabaso, practice and LinkedIn proof assets are embedded directly into index.html.
