@@ -52,3 +52,13 @@ h1{font-size:clamp(46px,5.8vw,92px);line-height:1.02;letter-spacing:-.055em;max-
   .contact-expanded{padding-top:64px;padding-bottom:64px;}
   .site-footer{grid-template-columns:1fr;padding:38px 24px;gap:28px;}
 }
+
+.hero-name{display:block}
+.hero-title{display:block;font-size:.72em;font-weight:700;margin-top:.08em}
+.footer-columns{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:30px;width:100%;margin-bottom:20px}
+.footer-columns h4{margin:0 0 10px}
+.footer-columns p{line-height:1.8}
+@media(max-width:900px){
+.footer-columns{grid-template-columns:1fr}
+.hero-title{font-size:.58em}
+}
